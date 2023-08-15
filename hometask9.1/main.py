@@ -6,4 +6,3 @@ with open("month_reversed.txt", "a") as f:
     content[-1] = content[-1].replace("\n", "")
     for i in content:
         f.write(str(i))
-
